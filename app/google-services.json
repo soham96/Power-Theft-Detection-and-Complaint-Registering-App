@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "819529523812",
+    "firebase_url": "https://sihuser-11acb.firebaseio.com",
+    "project_id": "sihuser-11acb",
+    "storage_bucket": "sihuser-11acb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819529523812:android:2fb615a02769b888",
+        "android_client_info": {
+          "package_name": "com.example.soham.sihuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819529523812-ql1488sbppsbv69ieuoldnd49l7iphrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk9xwQDZlCavEE23a8QzLxrYk0uCJRFVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
