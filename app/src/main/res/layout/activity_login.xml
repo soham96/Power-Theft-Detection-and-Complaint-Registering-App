@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
@@ -8,46 +9,65 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.soham.sihuser.Login">
+    tools:context="com.example.soham.sihuser.Login"
+    android:background="@mipmap/blurback">
 
+
+    <TextView
+        android:text="Forgot your Password?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="46dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="LogIn"
+        android:background="@drawable/loginbutton"
+        android:id="@+id/btlogin"
+        android:textColor="@color/login"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/registertext"
+        android:layout_alignStart="@+id/registertext"
+        android:layout_alignEnd="@+id/registertext" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/email"
-        android:layout_marginTop="36dp"
         android:hint="Email"
+        android:layout_above="@+id/password"
         android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/minofsteel"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/email"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LogIn"
-        android:id="@+id/btlogin"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:text="New To App? Register Here"
+        android:text="Sign Up"
+        android:layout_height="40dp"
+        android:background="@drawable/loginbutton"
         android:id="@+id/registertext"
-        android:layout_below="@+id/btlogin"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:background="@color/transparent" />
-
-    <TextView
-        android:text="Forgot Password?"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/registertext"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:id="@+id/forgot_password"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/forgot_password"
+        android:layout_alignStart="@+id/forgot_password"
+        android:layout_marginEnd="40dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/login" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -57,6 +77,8 @@
         android:id="@+id/password"
         android:hint="Password"
         android:layout_above="@+id/btlogin"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

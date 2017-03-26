@@ -12,28 +12,18 @@
     tools:context="com.example.soham.sihuser.startpage"
     android:background="@mipmap/backgrnd">
 
-    <TextView
-        android:text="----SIH 2017----"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView"
-        android:fontFamily="@string/button_text_send"
-        android:textColor="@color/com_facebook_share_button_text_color"
-        android:textSize="@dimen/sih"
-        android:textStyle="normal|bold" />
-
     <Button
         android:text="Create a New Account"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:background="@drawable/roundbutton"
+        android:background="@drawable/createnewaccount"
+
         android:id="@+id/button3"
         android:layout_marginBottom="23dp"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView"
-        android:layout_alignEnd="@+id/textView" />
+        android:layout_alignEnd="@+id/textView"
+        android:textColor="@android:color/white" />
 
     <Button
         android:text="Sign in to your Account"
@@ -47,13 +37,24 @@
         android:layout_alignStart="@+id/button3"
         android:layout_alignEnd="@+id/button3" />
 
-    <ImageView
+    <TextView
+        android:text="----SIH 2017----"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:fontFamily="@string/button_text_send"
+        android:textColor="@color/com_facebook_share_button_text_color"
+        android:textSize="@dimen/sih"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp" />
+
+    <ImageView
         app:srcCompat="@mipmap/transparent2"
         android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
         android:layout_above="@+id/textView"
-        android:layout_alignEnd="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

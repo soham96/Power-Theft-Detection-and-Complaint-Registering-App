@@ -23,8 +23,8 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Login extends AppCompatActivity {
 
     EditText etemail, etpassword;
-    Button btlogin;
-    TextView registertext, passwordtext;
+    Button btlogin, registertext;
+    TextView passwordtext;
 
     private ProgressDialog progressDialog;
 
@@ -81,7 +81,7 @@ public class Login extends AppCompatActivity {
 
         etemail=(EditText) findViewById(R.id.email);
         etpassword=(EditText) findViewById(R.id.password);
-        registertext=(TextView) findViewById(R.id.registertext);
+        registertext=(Button) findViewById(R.id.registertext);
         passwordtext=(TextView) findViewById(R.id.forgot_password);
         btlogin=(Button) findViewById(R.id.btlogin);
 
