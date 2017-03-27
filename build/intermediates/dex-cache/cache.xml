@@ -165,6 +165,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\pre-dexed\debug\core-3.2.1_1629dee24a44aad30ea05aa7690f84ccfd52dd4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\pre-dexed\debug\com.journeyapps-zxing-android-embedded-3.4.0_b2a41636e256d7b5dac48e07dec74e6583d1d6e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
         jumboMode="false"
         optimize="true"

@@ -30,7 +30,7 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 public class register extends AppCompatActivity {
 
     EditText etname, etemail, etadhar, etpassword1, etpassword;
-    Button btregister;
+    Button btregister, scanqr;
     ImageButton profile;
 
     private Firebase Users, adduser;
@@ -64,6 +64,15 @@ public class register extends AppCompatActivity {
         etpassword = (EditText) findViewById(R.id.password);
         etpassword1 = (EditText) findViewById(R.id.password1);
         profile= (ImageButton) findViewById(R.id.profilepic);
+        scanqr=(Button) findViewById(R.id.scanqr);
+
+        scanqr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(register.this, qrscanner.class);
+                startActivity(intent);
+            }
+        });
 
         profile.setOnClickListener(new View.OnClickListener() {
             @Override

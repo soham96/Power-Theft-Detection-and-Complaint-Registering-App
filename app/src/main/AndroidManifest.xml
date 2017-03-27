@@ -3,6 +3,7 @@
     package="com.example.soham.sihuser">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:name=".Sihuser"
@@ -29,6 +30,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".qrscanner"></activity>
     </application>
 
 </manifest>
