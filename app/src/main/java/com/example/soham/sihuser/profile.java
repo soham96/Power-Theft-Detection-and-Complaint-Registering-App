@@ -11,14 +11,25 @@ public class profile {
     private String Image;
     private String Name;
 
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String address) {
+        Address = address;
+    }
+
+    private String Address;
+
     public profile()
     {}
 
-    public profile(String aadhar, String email, String image, String name) {
+    public profile(String aadhar, String email, String image, String name, String address) {
         Aadhar = aadhar;
         Email = email;
         Image = image;
         Name = name;
+        Address = address;
     }
 
 

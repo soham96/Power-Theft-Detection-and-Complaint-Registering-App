@@ -8,4 +8,5 @@
         android:left="10dp"
         android:right="10dp"
         android:top="5dp"/>
+    <stroke android:width="10px" android:color="#1A84C9" />
     </shape>

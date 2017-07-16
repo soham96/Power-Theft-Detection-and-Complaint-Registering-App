@@ -57,16 +57,37 @@ public class qrscanner extends AppCompatActivity {
                 try {
                     //converting the data to json
                     JSONObject obj = new JSONObject(result.getContents());
+                    String aadhaarInfoName;
+                    String aadhaarInfo = result.getContents();
+                    Toast.makeText(this, aadhaarInfo, Toast.LENGTH_SHORT).show();
+                    aadhaarInfo = aadhaarInfo.split(">")[1];
+                    Toast.makeText(this, aadhaarInfo, Toast.LENGTH_SHORT).show();
+                    aadhaarInfoName = aadhaarInfo.split("name=\"")[1];
+                    Toast.makeText(this, aadhaarInfoName, Toast.LENGTH_SHORT).show();
+                    aadhaarInfoName = aadhaarInfoName.split("\"")[0];
                     //setting values to textviews
-                    textViewName.setText(obj.getString("name"));
-                    textViewAddress.setText(obj.getString("address"));
+                    Toast.makeText(this, aadhaarInfoName, Toast.LENGTH_SHORT).show();
+                    textViewName.setText(aadhaarInfoName);
+//                    textViewAddress.setText(obj.getString("house"));
                 } catch (JSONException e) {
                     e.printStackTrace();
+                    String aadhaarInfoName;
+                    String aadhaarInfo = result.getContents();
+                    Toast.makeText(this, aadhaarInfo, Toast.LENGTH_SHORT).show();
+                    aadhaarInfo = aadhaarInfo.split(">")[1];
+                    Toast.makeText(this, aadhaarInfo, Toast.LENGTH_SHORT).show();
+                    aadhaarInfoName = aadhaarInfo.split("name=\"")[1];
+                    Toast.makeText(this, aadhaarInfoName, Toast.LENGTH_SHORT).show();
+                    aadhaarInfoName = aadhaarInfoName.split("\"")[0];
+                    //setting values to textviews
+                    Toast.makeText(this, aadhaarInfoName, Toast.LENGTH_SHORT).show();
+                    textViewName.setText(aadhaarInfoName);
+//                    textViewAddress.setText(obj.getString("house"));
                     //if control comes here
                     //that means the encoded format not matches
                     //in this case you can display whatever data is available on the qrcode
                     //to a toast
-                    Toast.makeText(this, result.getContents(), Toast.LENGTH_LONG).show();
+                    //Toast.makeText(this, result.getContents(), Toast.LENGTH_LONG).show();
                 }
             }
         } else {

@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="transparent">#00ffffff</color>
     <color name="login">#ff80ab</color>
+    <color name="tabcolour">#8c9eff</color>
 </resources>

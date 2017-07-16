@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.soham.sihuser.aboutus"
+    android:background="@color/com_facebook_button_border_color_focused">
+
+    <TextView
+        android:text="About Us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Ever had to face a lot of power outages? This is usually caused due to illegal power theft. \n
+        Know anyone who steals power and don't know who to tell? \n
+        We present to you VIDYUT, an application which tackles power theft. Just click a picture of the theft, or household or transmission line tapping and we will help send your complaint to the concerned government authorities while keeping your identity safe.
+        What's more, you will receive constant notification about scheduled power outages and other vital information from the government and your local power distributer."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:text="Help Empower India! \n Tackle Power Theft!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+</RelativeLayout>

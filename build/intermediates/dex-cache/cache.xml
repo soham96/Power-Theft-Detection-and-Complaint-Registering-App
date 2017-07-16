@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\pre-dexed\debug\library-1.0.19_f2aa862117d1aa2daba6f035466b882cf0e2543f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -174,21 +183,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
-        <dex dex="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\pre-dexed\debug\com.journeyapps-zxing-android-embedded-3.4.0_b2a41636e256d7b5dac48e07dec74e6583d1d6e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
         <dex dex="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2_e57dfbd65e579b706ed03c3d8d7346d7e0bfca63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="C:\Users\Soham\Desktop\Sihuser\app\build\intermediates\pre-dexed\debug\com.journeyapps-zxing-android-embedded-3.4.0_b2a41636e256d7b5dac48e07dec74e6583d1d6e4.jar" />
     </item>
     <item
         is-multidex="false"

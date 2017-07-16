@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">Sihuser</string>
     <string name="title_activity_password">password</string>
+    <string name="invite_app">Inviting applications for appointment to the post of Director(Operation and Monitoring) in the Ministry of Power in the Pay Scale Rs. (37400–67,000) with Grade Pay Rs. 8,700 (Pre-revised), on deputation/ reemployement basis.</string>
+    <string name="fill_up">Filling up the Post of Technical Member APTEL</string>
+    <string name="power_sch">Power Scheduling at 1300 hours in Kattankulathur, Kancheepuram District.</string>
+    <string name="sub_com">Submit Complaint</string>
+    <string name="load_image">Load Image</string>
+    <string name="crop_image">Crop Image</string>
+    <string name="extra_info">Extra Comments</string>
+    <string name="load_wait">Loading. Please Wait or Refresh.</string>
+    <string name="user_refresh">Refresh</string>
+    <string name="user_notification">Notification</string>
+    <string name="user_extensiontime">Extension of timeline for joining and issuance of Bonds by state govt. under the scheme UDAY</string>
+    <string name="user_login">LogIn</string>
+    <string name="user_forgotpass">Forgot your Password?</string>
+    <string name="user_email">Email</string>
+    <string name="user_signup">Sign Up</string>
+    <string name="user_password">Password</string>
+    <string name="user_create">Create Your</string>
+    <string name="user_account">Account!</string>
+    <string name="select_prof">Select Profile Image</string>
+    <string name="user_name">Name</string>
+    <string name="user_address">Address</string>
+    <string name="aadhar_number">Aadhar Number</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="aadhar_login">Aadhar Login</string>
+    <string name="user_register">Register</string>
+    <string name="user_newaccount">Create a New Account</string>
+    <string name="user_signin">Sign in to your Account</string>
 </resources>

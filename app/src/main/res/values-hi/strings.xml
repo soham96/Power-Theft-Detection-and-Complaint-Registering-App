@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sihuser</string>
+    <string name="title_activity_password">पासवर्ड</string>
+    <string name="invite_app">
+वेतनमान में विद्युत मंत्रालय में निदेशक (ऑपरेशन और मॉनिटरिंग) की नियुक्ति के लिए आवेदन आमंत्रित करना (37400-67,000) ग्रेड वेतन के साथ रु। 8,700 / - (पूर्व संशोधित), प्रतिनियुक्ति / पुनः-नियोक्ता आधार पर।</string>
+    <string name="fill_up">तकनीकी सदस्य एपीटेल के पद को भरना</string>
+    <string name="power_sch">
+काट्चीपुरम जिले में कट्टांकुलथूर में 1300 घंटों तक विद्युत समयबद्धन</string>
+    <string name="sub_com">
+शिकायत सबमिट करें</string>
+    <string name="load_image">चित्र लोड करें</string>
+    <string name="crop_image">चित्र को काटो</string>
+    <string name="load_wait">
+लोड हो रहा है। कृपया प्रतीक्षा करें या ताज़ा करें</string>
+    <string name="user_refresh">ताज़ा करें</string>
+    <string name="user_notification">अधिसूचना</string>
+    <string name="user_extensiontime">
+राज्य सरकार द्वारा बांडों को शामिल करने और जारी करने की समय सीमा का विस्तार यूडीवाई योजना के तहत</string>
+    <string name="user_login">लॉग इन करें</string>
+    <string name="user_forgotpass">क्या आप पासवर्ड भूल गए?</string>
+    <string name="user_email">ईमेल</string>
+    <string name="user_signup">साइन अप करें</string>
+    <string name="user_password">पासवर्ड</string>
+    <string name="user_create">अपना बनाएं</string>
+    <string name="user_account">लेखा!</string>
+    <string name="extra_info">अतिरिक्त जानकारी</string>
+    <string name="select_prof">
+प्रोफ़ाइल छवि का चयन करें</string>
+    <string name="user_name">नाम</string>
+    <string name="user_address">
+पता</string>
+    <string name="aadhar_number">
+आधार संख्या</string>
+    <string name="confirm_pass">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="aadhar_login">आधार लॉगिन</string>
+    <string name="user_register">
+रजिस्टर</string>
+    <string name="user_newaccount">एक नया खाता बनाएं</string>
+    <string name="user_signin">
+अपने अकाउंट में साइन इन करें</string>
+</resources>

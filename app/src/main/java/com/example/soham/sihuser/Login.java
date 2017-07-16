@@ -90,7 +90,7 @@ public class Login extends AppCompatActivity {
         passwordtext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Login.this, password.class);
+                Intent intent=new Intent(Login.this, forgotpassword.class);
                 startActivity(intent);
             }
         });

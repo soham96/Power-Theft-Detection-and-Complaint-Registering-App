@@ -10,120 +10,153 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.soham.sihuser.register"
-    android:background="@mipmap/blurback">
+    android:background="@mipmap/gradient">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Create Your"
+        android:text="@string/user_create"
         android:id="@+id/textView3"
         android:textSize="36sp"
-        android:textColor="@android:color/white"
+        android:textColor="@color/zxing_status_text"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="Account!"
+        android:text="@string/user_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
-        android:textColor="@android:color/white"
+        android:textColor="@color/zxing_status_text"
         android:textSize="36sp"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true" />
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
-        android:id="@+id/profilepic"
-        android:background="@color/transparent"
-        android:scaleType="centerCrop"
-        android:layout_alignTop="@+id/name"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="Select Profile Image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textview4"
-        android:textSize="@dimen/com_facebook_share_button_compound_drawable_padding"
-        android:layout_below="@+id/profilepic"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="12dp" />
+        android:layout_below="@+id/textView5">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:id="@+id/email"
-        android:hint="Email"
-        android:layout_below="@+id/name"
-        android:layout_alignStart="@+id/textView5" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/regno"
-        android:hint="Aadhar Number"
-        android:layout_below="@+id/textview4"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="19dp"
-        android:layout_alignParentEnd="true" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
+                android:id="@+id/profilepic"
+                android:background="@color/transparent"
+                android:scaleType="centerCrop"
+                android:layout_alignTop="@+id/name"
+                android:layout_alignParentStart="true"
+                android:tag="image" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/password"
-        android:hint="Enter Your Password"
-        android:layout_below="@+id/regno"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+            <TextView
+                android:text="@string/select_prof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview4"
+                android:layout_below="@+id/profilepic"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColorHint="@android:color/white" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/password1"
-        android:hint="Enter Your Password Again"
-        android:layout_below="@+id/password"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:hint="@string/user_name"
+                android:inputType="textPersonName"
+                android:layout_marginTop="23dp"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentEnd="true"
+                android:textColorHint="@android:color/white"
+                android:layout_toEndOf="@+id/textview4" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/name"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        android:layout_marginTop="23dp"
-        android:layout_below="@+id/textView5"
-        android:layout_alignParentEnd="true"
-        android:layout_alignStart="@+id/email"
-        android:textColorHint="@android:color/white" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/email"
+                android:hint="@string/user_address"
+                android:layout_below="@+id/name"
+                android:layout_alignParentEnd="true"
+                android:layout_alignStart="@+id/name"
+                android:textColorHint="@android:color/white" />
 
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:id="@+id/btregister"
-        android:background="@drawable/loginbutton"
-        android:textColor="@color/login"
-        android:layout_below="@+id/password"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/regno"
+                android:hint="@string/aadhar_number"
+                android:layout_alignBottom="@+id/textview4"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/textview4"
+                android:textColorHint="@android:color/white" />
 
-    <Button
-        android:text="scanqr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btregister"
-        android:layout_alignParentStart="true"
-        android:id="@+id/scanqr" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_below="@+id/textview4"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentEnd="true"
+                android:hint="@string/user_email"
+                android:layout_alignParentStart="true"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password"
+                android:hint="@string/user_password"
+                android:layout_below="@+id/editText"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password1"
+                android:hint="@string/confirm_pass"
+                android:layout_below="@+id/password"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:textColorHint="@android:color/white" />
+
+            <Button
+                android:text="@string/aadhar_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aadharlogin"
+                android:background="@drawable/loginbutton"
+                android:textColor="@color/login"
+                android:layout_below="@+id/password1"
+                android:layout_alignEnd="@+id/btregister"
+                android:layout_alignStart="@+id/btregister" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/user_signup"
+                android:id="@+id/btregister"
+                android:background="@drawable/loginbutton"
+                android:textColor="@color/login"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
 
 </RelativeLayout>
